@@ -23,3 +23,7 @@ Head to `localhost:8000` to see the app working.
 
 * `Left mouse button` moves the square under cursor.
 * `Right mouse button` adds the new square on a random position. If there is a square under the cursor already, changes it's color.
+
+
+
+
