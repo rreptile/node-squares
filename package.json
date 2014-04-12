@@ -1,0 +1,14 @@
+{
+	"name" : "node-squares",
+	"version" : "0.0.1",
+	"description" : "Тестовое задание",
+	"private": true,
+	"scripts": {
+	  	"postinstall": "node_modules/bower/bin/bower install"
+	},
+	"dependencies" : {
+		"socket.io" : "latest",
+		"bower" : "latest",
+		"express" : "3.x"
+	}
+}
