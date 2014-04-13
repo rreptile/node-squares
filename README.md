@@ -11,7 +11,7 @@ This application uses [Node](http://nodejs.org/) and [npm](http://npmjs.org/) fo
 npm install
 ```
 
-It will install Bower and all needed dependencies locally. After that, you can run the app:
+This will install Bower and all needed dependencies locally. After that, you can run the app:
 
 ```
 node app.js
