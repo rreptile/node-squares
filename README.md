@@ -1,7 +1,7 @@
 node-squares
 =====================
 
-Moving squares on canvas using Node.js
+Moving squares on HTML5 canvas with Node.js on the serverside
 
 ### Installing the app
 
