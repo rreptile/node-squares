@@ -31,6 +31,12 @@ $(document).ready(function(){
 			square.y = data.y;
 			draw();
 		});
+
+		socket.on('changeColor', function(data){
+			var square = _.where(items, {id: data.id})[0];
+			square.color = data.color;
+			draw();
+		});
 	}
 
 	draw();
