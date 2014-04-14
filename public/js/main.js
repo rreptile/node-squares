@@ -37,6 +37,14 @@ $(document).ready(function(){
 			square.color = data.color;
 			draw();
 		});
+
+		socket.on('syncSquares', function(squares){
+			console.log("Squares sync: "+JSON.stringify(squares));
+			for(var i in squares){
+	            var data = squares[i];
+	            addSquare(false, data.x, data.y, data.color, data.id);
+	        }
+		});
 	}
 
 	draw();
